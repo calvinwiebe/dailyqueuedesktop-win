@@ -1,0 +1,5 @@
+C:\Users\pg\Documents\Visual Studio 2008\Projects\DailyQueue\HotKeys\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\pg\Documents\Visual Studio 2008\Projects\DailyQueue\HotKeys\bin\Debug\HotKeys.dll
+C:\Users\pg\Documents\Visual Studio 2008\Projects\DailyQueue\HotKeys\bin\Debug\HotKeys.pdb
+C:\Users\pg\Documents\Visual Studio 2008\Projects\DailyQueue\HotKeys\obj\Debug\HotKeys.dll
+C:\Users\pg\Documents\Visual Studio 2008\Projects\DailyQueue\HotKeys\obj\Debug\HotKeys.pdb

@@ -1,0 +1,12 @@
+C:\Users\pg\Documents\Visual Studio 2008\Projects\DailyQueue\DailyQueue\bin\Release\DailyQueue.exe
+C:\Users\pg\Documents\Visual Studio 2008\Projects\DailyQueue\DailyQueue\bin\Release\DailyQueue.pdb
+C:\Users\pg\Documents\Visual Studio 2008\Projects\DailyQueue\DailyQueue\bin\Release\HotKeys.dll
+C:\Users\pg\Documents\Visual Studio 2008\Projects\DailyQueue\DailyQueue\bin\Release\Newtonsoft.Json.Net35.dll
+C:\Users\pg\Documents\Visual Studio 2008\Projects\DailyQueue\DailyQueue\bin\Release\HotKeys.pdb
+C:\Users\pg\Documents\Visual Studio 2008\Projects\DailyQueue\DailyQueue\obj\Release\ResolveAssemblyReference.cache
+C:\Users\pg\Documents\Visual Studio 2008\Projects\DailyQueue\DailyQueue\obj\Release\DailyQueue.DailyQueueForm.resources
+C:\Users\pg\Documents\Visual Studio 2008\Projects\DailyQueue\DailyQueue\obj\Release\DailyQueue.PasswordForm.resources
+C:\Users\pg\Documents\Visual Studio 2008\Projects\DailyQueue\DailyQueue\obj\Release\DailyQueue.Properties.Resources.resources
+C:\Users\pg\Documents\Visual Studio 2008\Projects\DailyQueue\DailyQueue\obj\Release\DailyQueue.csproj.GenerateResource.Cache
+C:\Users\pg\Documents\Visual Studio 2008\Projects\DailyQueue\DailyQueue\obj\Release\DailyQueue.exe
+C:\Users\pg\Documents\Visual Studio 2008\Projects\DailyQueue\DailyQueue\obj\Release\DailyQueue.pdb

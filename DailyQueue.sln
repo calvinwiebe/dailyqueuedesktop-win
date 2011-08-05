@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DailyQueue", "DailyQueue\DailyQueue.csproj", "{AD9C296E-00C1-4BC2-8004-816626BC995E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HotKeys", "HotKeys\HotKeys.csproj", "{80BE8035-32E2-426A-9833-E7B24E8AA208}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "DailyQueueInstaller", "DailyQueueInstaller\DailyQueueInstaller.vdproj", "{C3B3DEA5-E0D8-4829-930B-AD9CB4E1B8A8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AD9C296E-00C1-4BC2-8004-816626BC995E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AD9C296E-00C1-4BC2-8004-816626BC995E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AD9C296E-00C1-4BC2-8004-816626BC995E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AD9C296E-00C1-4BC2-8004-816626BC995E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{80BE8035-32E2-426A-9833-E7B24E8AA208}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{80BE8035-32E2-426A-9833-E7B24E8AA208}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{80BE8035-32E2-426A-9833-E7B24E8AA208}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{80BE8035-32E2-426A-9833-E7B24E8AA208}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C3B3DEA5-E0D8-4829-930B-AD9CB4E1B8A8}.Debug|Any CPU.ActiveCfg = Debug
+		{C3B3DEA5-E0D8-4829-930B-AD9CB4E1B8A8}.Release|Any CPU.ActiveCfg = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
