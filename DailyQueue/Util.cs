@@ -14,9 +14,9 @@ namespace DailyQueue
         public const string SUCCESS_MSG = "link successfully uploaded";
         public const string FAILED_MSG = "an error occured during upload. Check user credentials.";
         public const string NOT_CONFIGURED_MSG = "DQ is not configured";
-        public const string DAILYQUEUE_DOMAIN = "http://localhost:3000";
+        public const string DAILYQUEUE_DOMAIN = "http://dailyqueue.heroku.com";
         public const string DAILYQUEUE_ADD_URL = "/add.json";
-        public const string DAILYQUEUE_SIGN_IN_URL = "/users/sign_in.json";
+        public const string DAILYQUEUE_SIGN_IN_URL = "/login.json";
 
         public const Int32 BALLOON_TIME = 30000;
 

@@ -26,8 +26,8 @@ namespace DailyQueue
             {
 
                 //the request
-                string sRequest = Constants.getDailyQueueAddRequest(); 
-                string content = "{ url : '" + link + "' }";
+                string sRequest = Constants.getDailyQueueAddRequest();
+                string content = "{ url : '" + link + "', authenticity_token : '" + config.AuthenticityToken + "' }";
                 byte[] contentBytes = Encoding.ASCII.GetBytes(content);
 
                 // prepare the web page we will be asking for
@@ -98,14 +98,24 @@ namespace DailyQueue
             }
 
             string json = parseHttpResponse(response);
-            JObject o = JObject.Parse(json);
-            JValue oSuccess = (JValue)o["success"];
-            if ((bool)oSuccess.Value)
+            try
             {
-                return SendResult.SUCCESS;
+                JObject o = JObject.Parse(json);
+                JValue oSuccess = (JValue)o["success"];
+                JValue oAuthenticityToken = (JValue)o["authenticity_token"];
+                if ((bool)oSuccess.Value)
+                {
+                    config.AuthenticityToken = oAuthenticityToken.Value.ToString();
+                    return SendResult.SUCCESS;
+                }
+                else
+                {
+                    return SendResult.FAILURE;
+                }
             }
-            else
+            catch (Exception e)
             {
+                string message = e.Message;
                 return SendResult.FAILURE;
             }
 

@@ -12,6 +12,8 @@ namespace DailyQueue
     {
         private string user;
         private string password;
+        private string authenticityToken = "";
+
         private CookieCollection cookies;
 
         private const string CONFIG_XML = "config.xml";
@@ -88,6 +90,12 @@ namespace DailyQueue
         {
             get { return cookies; }
             set { cookies = value; }
+        }
+
+        public string AuthenticityToken
+        {
+            get { return authenticityToken; }
+            set { authenticityToken = value; }
         }
 
         #endregion
